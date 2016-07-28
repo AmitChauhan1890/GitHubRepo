@@ -17,13 +17,12 @@ public class Mkyong_ContactUs extends DriverInstance{
 	@AfterTest
 	public void closeBrowserInstance()
 	{
-		_driver.close();
+		_driver.get("http://www.mkyong.com/contact-mkyong/");
 	}
 	
 	@Test
 	public void isPageAccessible()
 	{
-		_driver.get("http://www.mkyong.com/contact-mkyong/");
 		Assert.assertTrue(_driver.findElement(By.xpath("//h1[text()='Contact Us']")).isDisplayed());
 	}
 }
