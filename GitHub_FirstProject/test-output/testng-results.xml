@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32446" started-at="2016-07-28T09:15:20Z" finished-at="2016-07-28T09:15:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32446" started-at="2016-07-28T09:15:20Z" finished-at="2016-07-28T09:15:53Z">
+      <class name="code.Mkyong_ContactUs">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:code.Mkyong_ContactUs@1888ff2c]" name="setUpDriver" is-config="true" duration-ms="6155" started-at="2016-07-28T14:45:20Z" finished-at="2016-07-28T14:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="isPageAccessible()[pri:0, instance:code.Mkyong_ContactUs@1888ff2c]" name="isPageAccessible" duration-ms="26268" started-at="2016-07-28T14:45:26Z" finished-at="2016-07-28T14:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPageAccessible -->
+        <test-method status="PASS" signature="closeBrowserInstance()[pri:0, instance:code.Mkyong_ContactUs@1888ff2c]" name="closeBrowserInstance" is-config="true" duration-ms="16" started-at="2016-07-28T14:45:53Z" finished-at="2016-07-28T14:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserInstance -->
+      </class> <!-- code.Mkyong_ContactUs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
