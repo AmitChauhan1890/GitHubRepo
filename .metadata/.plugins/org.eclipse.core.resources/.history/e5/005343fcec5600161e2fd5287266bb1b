@@ -22,12 +22,12 @@ public class Mkyong_ContactUs extends DriverInstance{
 	}
 	
 	@DataProvider
-	Object[][] multipleURLs()
+	Object[] multipleURLs()
 	{
 		Object obj1[][]=new Object[10][1];
 		for (int i = 0; i < obj1.length; i++)
 			for(int j=0; j<1;j++)
-			obj1[i][j]="Test"+i+j;
+			obj1[i][j]="Test"+i;
 		
 		return obj1;
 	}
