@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32446" started-at="2016-07-28T09:15:20Z" finished-at="2016-07-28T09:15:53Z">
+  <suite name="Default suite" duration-ms="9365" started-at="2016-07-31T04:47:49Z" finished-at="2016-07-31T04:47:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32446" started-at="2016-07-28T09:15:20Z" finished-at="2016-07-28T09:15:53Z">
+    <test name="Default test" duration-ms="9365" started-at="2016-07-31T04:47:49Z" finished-at="2016-07-31T04:47:58Z">
       <class name="code.Mkyong_ContactUs">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:code.Mkyong_ContactUs@1888ff2c]" name="setUpDriver" is-config="true" duration-ms="6155" started-at="2016-07-28T14:45:20Z" finished-at="2016-07-28T14:45:26Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:code.Mkyong_ContactUs@1888ff2c]" name="setUpDriver" is-config="true" duration-ms="5460" started-at="2016-07-31T10:17:49Z" finished-at="2016-07-31T10:17:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="isPageAccessible()[pri:0, instance:code.Mkyong_ContactUs@1888ff2c]" name="isPageAccessible" duration-ms="26268" started-at="2016-07-28T14:45:26Z" finished-at="2016-07-28T14:45:53Z">
+        <test-method status="PASS" signature="isPageAccessible()[pri:0, instance:code.Mkyong_ContactUs@1888ff2c]" name="isPageAccessible" duration-ms="3889" started-at="2016-07-31T10:17:54Z" finished-at="2016-07-31T10:17:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPageAccessible -->
-        <test-method status="PASS" signature="closeBrowserInstance()[pri:0, instance:code.Mkyong_ContactUs@1888ff2c]" name="closeBrowserInstance" is-config="true" duration-ms="16" started-at="2016-07-28T14:45:53Z" finished-at="2016-07-28T14:45:53Z">
+        <test-method status="PASS" signature="closeBrowserInstance()[pri:0, instance:code.Mkyong_ContactUs@1888ff2c]" name="closeBrowserInstance" is-config="true" duration-ms="9" started-at="2016-07-31T10:17:58Z" finished-at="2016-07-31T10:17:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserInstance -->
