@@ -1,0 +1,44 @@
+package code;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class Mkyong_ContactUs extends DriverInstance{
+
+	@BeforeTest
+	public void setUpDriver()
+	{
+		super.getDriverInstance("Firefox");
+	}
+	
+	@AfterTest
+	public void closeBrowserInstance()
+	{
+		_driver.close();
+	}
+	
+	@DataProvider
+	Object[][] multipleURLs()
+	{
+		Object obj1[][]=new Object[10][1];
+//		for (int i = 0; i < obj1.length; i++)
+//			for(int j=0; j<1;j++)
+//			obj1[i][j]="Test"+i+j;
+		obj1[0][0]="";
+		obj1[1][0]="";
+		obj1[2][0]="";
+		
+		return obj1;
+	}
+	
+	@Test(dataProvider="multipleURLs")
+	public void isPageAccessible(String testRunCount)
+	{
+		_driver.get("http://www.mkyong.com/contact-mkyong/");
+		Assert.assertTrue(_driver.findElement(By.xpath("//h1[text()='Contact Us']")).isDisplayed());
+	}
+}
